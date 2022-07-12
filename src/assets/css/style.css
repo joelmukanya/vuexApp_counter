@@ -1,0 +1,28 @@
+/* Select all element */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper, .wrapper button {
+    font-size: 80px;
+}
+.wrapper {
+    margin: auto;
+    width: 40vw;
+    border-radius: 10px;
+}
+
+.wrapper #button-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: darkgrey;
+    justify-content: space-evenly;
+}
+
+.wrapper #button-wrapper button {
+    /* font-size: 80px; */
+    padding: 20px;
+    /* margin: 0 10px; */
+}
